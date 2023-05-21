@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  font-size: 24px;
+}
+
+.stker {
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+}
+
+.stker_radius {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid red;
+}
+
+.stker_circle {
+  width: 10px;
+  height: 10px;
+  background: red;
+  border-radius: 50%;
+}
+
+.gnav {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.gnav_list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
